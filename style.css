@@ -82,6 +82,20 @@ body {
     background-color: #FF2E63;
 }
 
+.btn{
+    background-color: #FF2E63;
+    padding: 10px 25px;
+    border: none;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btn:hover {
+    padding: 10px 40px;
+    background-color: #08D9D6;
+    color: #000;
+}
+
 #play-again {
     background-color: #FF2E63;
     padding: 10px 25px;

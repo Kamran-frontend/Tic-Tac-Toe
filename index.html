@@ -2,17 +2,21 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tic Tac Toe</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div id="logo-container">
-        <img src="images/tic-tac-toe.png" class="logo">
+    <div class="header">
+        <h1>Tic Tac Toe</h1>
+        <div class="scoreboard">
+            <span>Player X: <span id="scoreX">0</span></span>
+            <span>Player O: <span id="scoreO">0</span></span>
+            <span>AI: <span id="scoreAI">0</span></span>
+        </div>
     </div>
     <div class="turn-container">
-        <h3>Now Turn</h3>
+        <h3>Turn For</h3>
         <div class="turn-box align">X</div>
         <div class="turn-box align">O</div>
         <div class="bg"></div>
@@ -29,7 +33,11 @@
         <div class="box align"></div>
     </div>
     <h2 id="results"></h2>
-    <button id="play-again">Play Again</button>
+    <div class="controls">
+        <button id="play-again">Play Again</button>
+        <button id="reset" class="btn">Reset</button>
+        <button id="ai-toggle" class="btn">AI-Player Mode: OFF</button>
+    </div>
     <script src="script.js"></script>
 </body>
 </html>
