@@ -4,6 +4,9 @@ A simple yet engaging Tic Tac Toe game developed using **HTML**, **CSS**, and **
 
 ![Preview](https://github.com/Kamran-frontend/Tic-Tac-Toe/blob/main/preview.png?raw=true)
 
+# Play here:
+https://kamran-frontend.github.io/Tic-Tac-Toe/
+
 ## 📜 Features
 - **Two-player functionality**: Play with a friend.
 - **Turn indicator**: Displays whose turn it is with a dynamic highlight.
